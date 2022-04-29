@@ -1,0 +1,27 @@
+{
+  "name": "Hub",
+  "version": "1.0.0",
+  "description": "Central Hub for IoT Devices",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Firdavs Kasymov",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "mongodb": "^3.2.3",
+    "mosca": "^2.8.3",
+    "mqtt": "^2.18.8",
+    "piinfo": "0.0.2",
+    "quick-local-ip": "^1.0.7"
+  }
+}
